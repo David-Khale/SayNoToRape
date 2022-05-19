@@ -1,0 +1,457 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-Bold.ttf') format(truetype);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+
+*, *::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: fantasy !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.logo h1::first-letter {
+    color: orange !important;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+}
+
+.home {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+nav .logo--nav ul li a {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nav--btn {
+    display: flex;
+    gap: 30px;
+} 
+
+.btn {
+    border-radius: 20px;
+
+
+
+}
+
+.btn-primary {
+    color: orange;
+    outline: orange solid 1px;
+    padding: 12px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+    color: #fff;
+}
+.btn-secondary {
+    color: rgba(240, 252, 255, 0.993);
+    background-color: orange;
+    padding: 12px 30px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background-color: #23292e;
+    outline: orange solid 1px;
+    color: orange;
+}
+
+
+
+.hero {
+    background-image: url('../img/rape\ victim.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: .9;
+    width: 90%;
+    height: 41.25em;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+ 
+  .hero h2 {
+      color: #fff;
+      font-size: 55px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 100px;
+      padding-top: 300px;
+  }
+
+  .hero p {
+      color: orange;
+      font-size: 20px;
+      margin-top: 20px;
+      line-height: 1.8;
+      font-weight: 600;
+      width: 1100px;
+      margin-left: 100px;
+  }
+
+  .btn-2 {
+      padding-top: 60px;
+      margin-left: 150px;
+  }
+
+  .btn-pri {
+    color: orange;
+    outline: orange solid 1px;
+    padding: 15px 40px;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .btn-pri:hover {
+    background-color: orange;
+    color: #fff;
+}
+.btn-sec {
+    color: rgba(240, 252, 255, 0.993);
+    background-color: orange;
+    padding: 15px 40px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    margin-left: 60px;
+}
+
+.btn-sec:hover {
+    background-color: #23292e;
+    outline: orange solid 1px;
+    color: orange;
+}
+
+.partners {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.partners h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.spot {
+    margin-left: 150px;
+}
+
+.ster {
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.protest {
+    margin-top: 150px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.protect {
+    margin-left: 100px;
+}
+.protest h3 {
+    font-size: 45px;
+    font-family: Gilroy-Bold, sans-serif;
+}
+.protest p {
+    width: 520px;
+    margin-top: 20px;
+    line-height: 1.7rem;
+}
+
+ .ghost--btn {
+    display: flex;
+    align-items: center;
+}
+.protest a{
+    color: orange;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+svg {
+    padding-top: -10px;
+    height: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-2 {
+    margin-top: 40px;
+}
+
+.women {
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.women h4 {
+    font-size: 30px;
+}
+
+.activists {
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.adeyoji img {
+    object-fit: cover;
+    border: #23292e solid 2px;
+}
+
+.adeyoji h1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.adeyoji p {
+    width: 250px;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.STer {
+    margin: 0 !important;
+}
+.adeyoji a {
+    color: orange;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.oso a {
+    margin-top: 70px !important;
+}
+.ijk a {
+    margin-top: 50px !important;
+}
+.eze a {
+    margin-top: 70px !important;
+}
+
+
+.adeyoji .ghost--btn:hover{
+    margin-top: -10px;
+    transition: all .5s ease-in-out;
+}
+
+.rape-victim {
+    max-width: 1250px;
+    margin-left: 50px;
+    margin-block: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 80px;
+}
+.victim-img {
+    border-radius: 30px;
+    width: 28.125em;
+    height: 600px;
+}
+
+.victim-img img {
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 2px;
+
+}
+
+.help {
+    margin-left: 90px;
+}
+.help h5 {
+    font-size: 65px;
+    width: 400px;
+    color: #23292e;
+}
+
+.help p {
+    width: 520px;
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 30px;
+    color: #23292e;
+}
+
+.report-btn .report, .call {
+    color: rgba(240, 252, 255, 0.993);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 40px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+
+}
+
+.report:hover {
+    background-color: rgba(0, 0, 0, 1);
+    outline: white solid thin;
+}
+
+.call:hover {
+    background-color: rgba(0, 0, 0, 1);
+    outline: white solid thin;
+}
+.report-btn {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    max-height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.social a img {
+    width: 60px;
+    height: 60px;
+    stroke: #fff;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition: all .9s ease-in-out;
+}
+
+.social a img:hover {
+    background-color: orange;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 50px;
+}
+.foot a {
+    color: #fff;
+    transition: all .9s ease-in-out;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+.DMAA {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.end {    
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+.copy p {
+    color: #fff;
+    margin-top: 75px;
+}
+
+.adress p{
+    color: #fff;
+}
+
+address {
+    color: #fff;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+address span {
+    display: block;
+}
+
+.hotlines {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+.h2 {
+    margin-top: 155px;
+    margin-left: 8rem;
+}
+
+.hotlines h5 {
+    margin-top: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
